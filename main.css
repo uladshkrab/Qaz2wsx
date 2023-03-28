@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.all-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav__item {
+    display: inline-block;
+    padding: 56px;
+}
+
+.header-icons {
+    display: inline-block;
+    align-items: center;
+    margin-left: 34px;
+    padding: 7px;
+
+}
+
+ul {
+    display: flex;
+
+}
