@@ -1,0 +1,25 @@
+p::after {
+    content: " конец!";
+    color: red;
+}
+
+p::before {
+    content: " начало:";
+    color: green;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: green;
+}
+
+.exampl5 ul li:nth-child(even) {
+    color: red;
+}
+
+.exampl5 ul li:nth-child(odd) {
+    color: green;
+}
